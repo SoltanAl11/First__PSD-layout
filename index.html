@@ -19,21 +19,24 @@
 </head>
 
 <body>
+
     <header class="menu-bar">
         <div class="container">
             <div class="row">
-                <div class="col-xl-2">
+                <div class="col-xl-2 logo-bar">
                     <img src="img/logo.jpg" alt="Festagent" class="logo">
+                    <button class="menu-icon"><i class="fas fa-bars"></i></button>
+
                 </div>
                 <div class="col-xl-8 ml-auto align-self-center">
                     <nav>
                         <ul class="menu d-flex justify-content-end">
-                            <li><a class="menu-item" href="#">Home</a></li>
-                            <li><a class="menu-item" href="#">About</a></li>
-                            <li><a class="menu-item" href="#">Servicing</a></li>
-                            <li><a class="menu-item" href="#">Portfolio</a></li>
-                            <li><a class="menu-item" href="#">Blog</a></li>
-                            <li><a class="menu-item" href="#">Contact us</a></li>
+                            <li><a class="menu-item" href="/"><i class="fas fa-home"></i></a></li>
+                            <li><a class="menu-item" href="#about">About</a></li>
+                            <li><a class="menu-item" href="#service">Servicing</a></li>
+                            <li><a class="menu-item" href="#portfolio">Portfolio</a></li>
+                            <li><a class="menu-item" href="#blog">Blog</a></li>
+                            <li><a class="menu-item" href="#contact">Contact us</a></li>
                             <li><i class="fas fa-search menu-item"></i></li>
                         </ul>
                     </nav>
@@ -53,7 +56,7 @@
             </div>
         </div>
     </header>
-    <section class="about">
+    <section class="about" id="about">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12 ">
@@ -64,17 +67,17 @@
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-xl-3">
+                <div class="col-xl-3 col-md-6">
                     <img src="img/Lorem1.png" width="10%" height="10%" alt="inter">
                     <h3 class="about_h3">Awesome Icons</h3>
                     <p class="about_text">Lorem ipsum blba blab bla</p>
                 </div>
-                <div class="col-xl-3">
+                <div class="col-xl-3 col-md-6">
                     <img src="img/Lorem2.png" width="10%" height="10%" alt="circle">
                     <h3 class="about_h3">One Page</h3>
                     <p class="about_text">Lorem ipsum blba blab bla</p>
                 </div>
-                <div class="col-xl-3">
+                <div class="col-xl-3 col-md-6">
                     <img src="img/Lorem3.png" width="10%" height="10%" alt="head">
                     <h3 class="about_h3">Fully Responsive</h3>
                     <p class="about_text">Lorem ipsum blba blab bla</p>
@@ -82,7 +85,7 @@
             </div>
         </div>
     </section>
-    <section class="services">
+    <section class="services" id="service">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-12"></div>
@@ -93,7 +96,7 @@
             </div>
 
             <div class="row justify-content-center">
-                <div class="col-xl-4">
+                <div class="col-xl-4 col-md-6">
                     <div class="our_card">
                         <i class="fas fa-mobile-alt icon"></i>
                         <h3 class="about_h3">Portfolio</h3>
@@ -101,7 +104,7 @@
                         <button class="button-services">Read more</button>
                     </div>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-xl-4 col-md-6">
                     <div class="our_card">
                         <i class="icon-_506 icon-sasha2"></i>
                         <h3 class="about_h3">Portfolio</h3>
@@ -110,7 +113,7 @@
                     </div>
                 </div>
 
-                <div class="col-xl-4">
+                <div class="col-xl-4 col-md-6">
                     <div class="our_card">
                         <i class="icon-refresh icon-sasha"></i>
                         <h3 class="about_h3">Portfolio</h3>
@@ -121,7 +124,7 @@
 
 
 
-                <div class="col-xl-4">
+                <div class="col-xl-4 col-md-6">
                     <div class="our_card">
                         <i class="icon-flag icon-sasha"></i>
                         <h3 class="about_h3">Portfolio</h3>
@@ -131,7 +134,7 @@
                 </div>
 
 
-                <div class="col-xl-4">
+                <div class="col-xl-4 col-md-6">
                     <div class="our_card">
                         <i class="icon-headphones icon-sasha"></i>
                         <h3 class="about_h3">Portfolio</h3>
@@ -141,7 +144,7 @@
                 </div>
 
 
-                <div class="col-xl-4">
+                <div class="col-xl-4 col-md-6">
                     <div class="our_card">
                         <i class="icon-_537 icon-sasha2"></i>
                         <h3 class="about_h3">Portfolio</h3>
@@ -155,65 +158,66 @@
         </div>
 
     </section>
-    <section class="portfolio">
+    <section class="portfolio" id="portfolio">
         <div class="container">
-            <div class="row">
-                <div class="row justify-content-center">
-                    <div class="col-xl-12"></div>
-                    <h2 class="about_title">Latest Works</h2>
-                    <p class="about_text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, sit ut?
-                        Quisquam quidem doloribus velit maiores vel at, culpa enim beatae maxime, vitae iste, repellat
-                        rerum eligendi nostrum temporibus cum!</p>
+            <div class="row justify-content-center">
+
+
+                <h2 class="about_title">Latest Works</h2>
+                <p class="about_text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, sit ut?
+                    Quisquam quidem doloribus velit maiores vel at, culpa enim beatae maxime, vitae iste, repellat
+                    rerum eligendi nostrum temporibus cum!</p>
+                <div class="portfolio__buttons">
                     <button val="on" class="button " filter="all">ALL</button>
                     <button val="off" class="button " filter="wd">WEB DESIGN</button>
                     <button val="off" class="button " filter="ud">UL/UX DESIGN</button>
                     <button val="off" class="button " filter="moc">MOKUPS</button>
                 </div>
             </div>
-            <div class="row filter">
-                <div filter="wd" class="col-xl-4"><img src="img/item1new.jpg" alt="">
+            <div class="row justify-content-center ">
+                <div filter="wd" class="col-xl-4 col-md-6 "><img src="img/item1new.jpg" alt="">
                     <div class="text">
                         <h5>Hand Watch</h5>
                         <p>Web desigh</p>
                     </div>
                 </div>
-                <div filter="moc" class="col-xl-4"><img src="img/item6new.jpg" alt="">
+                <div filter="moc" class="col-xl-4 col-md-6"><img src="img/item6new.jpg" alt="">
                     <div class="text">
                         <h5>One Day Pass</h5>
                         <p>Mockups</p>
                     </div>
                 </div>
-                <div filter="wd" class="col-xl-4"><img src="img/item3new.jpg" alt="">
+                <div filter="wd" class="col-xl-4 col-md-6"><img src="img/item3new.jpg" alt="">
                     <div class="text">
                         <h5>Model T-shirt</h5>
                         <p>Web desigh</p>
                     </div>
                 </div>
-                <div filter="moc" class="col-xl-4"><img src="img/item4new.jpg" alt="">
+                <div filter="moc" class="col-xl-4 col-md-6"><img src="img/item4new.jpg" alt="">
                     <div class="text">
                         <h5>Flask</h5>
                         <p>Mockups</p>
                     </div>
                 </div>
-                <div filter="ud" class="col-xl-4"><img src="img/item5new.jpg" alt="">
+                <div filter="ud" class="col-xl-4 col-md-6"><img src="img/item5new.jpg" alt="">
                     <div class="text">
                         <h5>Eplemost</h5>
                         <p>Ui/Ux desigh</p>
                     </div>
                 </div>
-                <div filter="ud" class="col-xl-4"><img src="img/item7new.jpg" alt="">
+                <div filter="ud" class="col-xl-4 col-md-6"><img src="img/items66.jpg" alt="">
                     <div class="text">
                         <h5>The kitchens</h5>
                         <p>Ui/Ux desigh</p>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-xl-12">
-                <button val="on" class="button " filter="all">VIEW ALL </button>
-            </div>
 
+            <div class="row">
+                <div class="col-xl-12">
+                    <button val="on" class="button " filter="all">VIEW ALL </button>
+                </div>
+            </div>
         </div>
     </section>
     <section class="pricing">
@@ -227,7 +231,7 @@
                 </div>
             </div>
             <div class="row justify-content-around">
-                <div class="col-xl-4">
+                <div class="col-xl-4 col-md-6">
                     <div class="price">
                         <div class="price_head">
                             <p>Free Trail</p>
@@ -247,7 +251,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-xl-4 col-md-6">
                     <div class="price">
                         <div class="price_head">
                             <p>Basic</p>
@@ -268,7 +272,7 @@
                 </div>
 
 
-                <div class="col-xl-4">
+                <div class="col-xl-4 col-md-6">
                     <div class="price">
                         <div class="price_head">
                             <p>Ultimates</p>
@@ -592,7 +596,7 @@
             </div>
         </div>
     </section>
-    <section class="services">
+    <section class="services" id="blog">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-12"></div>
@@ -601,71 +605,70 @@
                     Quisquam quidem doloribus velit maiores vel at, culpa enim beatae maxime, vitae iste, repellat
                     rerum eligendi nostrum temporibus cum!</p>
             </div>
-        </div>
-        <div class="row left">
-            <div class="col-xl-6">
-                <img src="./img/blog4.jpg" alt="">
-            </div>
-            <div class="col-xl-6">
-                <div class="blog">
-                    <a href="">SEO Quis Vestibulum</a>
-                    <div><span><i class="far fa-calendar-alt"></i>14.07.2017</span>
-                        <span><i class="far fa-file"></i></i>Devolopment</span>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, sit ut?
-                            Quisquam quidem doloribus velit maiores vel at, culpa enim beatae maxime, vitae iste,
-                            repellat
-                            rerum eligendi nostrum temporibus cum!</p>
-                    </div>
+
+            <div class="row left">
+                <div class="col-xl-6">
+                    <img src="./img/blog4.jpg" alt="" class="img-fluid">
                 </div>
-
-
-            </div>
-        </div>
-        <div class="row right">
-            <div class="col-xl-6">
-                <img src="./img/blog5.jpg" alt="">
-            </div>
-            <div class="col-xl-6">
-                <div class="blog">
-                    <a href="">SEO Quis Vestibulum</a>
-                    <div> <span><i class="far fa-calendar-alt"></i>14.07.2017</span>
-                        <span><i class="far fa-file"></i></i>Devolopment</span>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, sit ut?
-                            Quisquam quidem doloribus velit maiores vel at, culpa enim beatae maxime, vitae iste,
-                            repellat
-                            rerum eligendi nostrum temporibus cum!</p>
+                <div class="col-xl-6">
+                    <div class="blog">
+                        <a href="">SEO Quis Vestibulum</a>
+                        <div><span><i class="far fa-calendar-alt"></i>14.07.2017</span>
+                            <span><i class="far fa-file"></i>Devolopment</span>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, sit ut?
+                                Quisquam quidem doloribus velit maiores vel at, culpa enim beatae maxime, vitae iste,
+                                repellat
+                                rerum eligendi nostrum temporibus cum!</p>
+                        </div>
                     </div>
+
 
                 </div>
             </div>
+            <div class="row right">
+                <div class="col-xl-6">
+                    <img src="./img/blog5.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-xl-6">
+                    <div class="blog">
+                        <a href="">SEO Quis Vestibulum</a>
+                        <div> <span><i class="far fa-calendar-alt"></i>14.07.2017</span>
+                            <span><i class="far fa-file"></i>Devolopment</span>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, sit ut?
+                                Quisquam quidem doloribus velit maiores vel at, culpa enim beatae maxime, vitae iste,
+                                repellat
+                                rerum eligendi nostrum temporibus cum!</p>
+                        </div>
 
-        </div>
-        <div class="row left">
-            <div class="col-xl-6">
-                <img src="./img/blog6.jpg" alt="">
+                    </div>
+                </div>
             </div>
-            <div class="col-xl-6">
-                <div class="blog">
-                    <a href="">SEO Quis Vestibulum</a>
-                    <div><span><i class="far fa-calendar-alt"></i>14.07.2017</span>
-                        <span><i class="far fa-file"></i></i>Devolopment</span>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, sit ut?
-                            Quisquam quidem doloribus velit maiores vel at, culpa enim beatae maxime, vitae iste,
-                            repellat
-                            rerum eligendi nostrum temporibus cum!</p>
+            <div class="row left">
+                <div class="col-xl-6">
+                    <img src="./img/blog6.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-xl-6">
+                    <div class="blog">
+                        <a href="">SEO Quis Vestibulum</a>
+                        <div><span><i class="far fa-calendar-alt"></i>14.07.2017</span>
+                            <span><i class="far fa-file"></i>Devolopment</span>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, sit ut?
+                                Quisquam quidem doloribus velit maiores vel at, culpa enim beatae maxime, vitae iste,
+                                repellat
+                                rerum eligendi nostrum temporibus cum!</p>
+                        </div>
                     </div>
                 </div>
             </div>
 
-        </div>
-        <div class="row">
-            <div class="col-xl-12">
-                <button class="button_blog">MORE VIEW</button>
+            <div class="row">
+                <div class="col-xl-12">
+                    <button class="button_blog">MORE VIEW</button>
+                </div>
             </div>
-        </div>
-        </div>
+
     </section>
-    <footer class="footer">
+    <footer class="footer" id="contact">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-12">
@@ -677,34 +680,36 @@
                 </div>
             </div>
             <div class="row justify-content-arond">
-                <div class="col-xl-3">
+                <div class="col-xl-4">
                     <div class="circle"> <i class="fas fa-map-marker-alt"></i></div>
                     <p>Nobinagar savar,Dhaka <br>Bangladesh</p>
                 </div>
 
-                <div class="col-xl-3">
+                <div class="col-xl-4">
                     <div class="circle"> <i class="fas fa-phone fa-rotate-90"></i></div>
                     <p>+8801743331996<br>
                         +8801928737807</p>
                 </div>
 
-                <div class="col-xl-3">
+                <div class="col-xl-4">
                     <div class="circle"><i class="far fa-envelope "></i> </div>
                     <p>quickmasud@gmail.com<br>
                         quickmasud@yahoo.com</p>
                 </div>
             </div>
             <div class="row form justify-content-center">
-<div class="col-xl-5"> <input type="text" placeholder="Your Name"></div>
-<div class="col-xl-5"><input type="email" placeholder="Your Email"></div>
-   <div class="col-xl-10"><textarea name="" id="" cols="30" rows="10" placeholder="Write Message"></textarea></div>
-   <div class="col-xl-2 offset-xl-7"><button>Send</button></div>
+                <div class="col-xl-5"> <input type="text" placeholder="Your Name"></div>
+                <div class="col-xl-5"><input type="email" placeholder="Your Email"></div>
+                <div class="col-xl-10"><textarea name="" id="" cols="30" rows="10"
+                        placeholder="Write Message"></textarea></div>
+                <div class="col-xl-2 offset-xl-7"><button>Send</button></div>
             </div>
         </div>
     </footer>
     <footer class="rules">All rights Reserved © 2017</footer>
+    <div id="toTop"> <i class="fas fa-chevron-up"></i></div>
     <script src="jquery-3.3.1.slim.min.js"></script>
-    <script src="main.js"></script>
+
     <script type="text/javascript">
     </script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
